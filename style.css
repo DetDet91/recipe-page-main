@@ -125,13 +125,13 @@ table td:last-child{
 }
 
 section.ingredients {
-    border-bottom: 1px solid hsl(30, 10%, 34%); /* Line between Ingredients and Instructions */
+    border-bottom: 1px solid hsl(30, 10%, 34%); 
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
 
 section.instructions {
-    border-bottom: 1px solid hsl(30, 10%, 34%); /* Line between Instructions and Nutrition */
+    border-bottom: 1px solid hsl(30, 10%, 34%); 
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
