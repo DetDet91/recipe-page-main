@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&family=Outfit:wght@400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.6;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+header img{
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+header h1{
+    font-family: 'Young Serif', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 15px;
+}
+
+header p{
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+
+}
+
+.prep-time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.prep-time h2{
+    font-size: 1.1rem;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 10px;
+}
+.prep-time ul{
+    list-style: none;
+}
+.prep-time li{
+    margin-bottom: 8px;
+    color: hsl(30, 10%, 34%); 
+    font-weight: 400; 
+}
+.prep-time strong{
+    font-weight: 600;
+
+}
+h2{
+    font-family: "Young Serif", serif;
+    font-size: 1.5rem;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 10px;
+}
+
+.ingredients ul, .instructions ol{
+    margin-left: 20px;
+}
+.ingredients li, .instructions li{
+    margin-bottom: 10px;
+}
+.ingredients::marker, .instructions::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.nutrition{
+    margin-top: 25px;
+}
+.nutrition p{
+    margin-bottom: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+table tr:last-child{
+    border-bottom: none;
+}
+
+table td{
+    padding: 8px 0;
+    font-weight: 400;
+}
+table td:first-child{
+   color:  hsl(30, 10%, 34%);
+}
+table td:last-child{
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(14, 45%, 36%); /* Brown 800 */
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 375px) {
+    .container {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+}
