@@ -124,6 +124,23 @@ table td:last-child{
     color: hsl(14, 45%, 36%);
 }
 
+section.ingredients {
+    border-bottom: 1px solid hsl(30, 10%, 34%); /* Line between Ingredients and Instructions */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+section.instructions {
+    border-bottom: 1px solid hsl(30, 10%, 34%); /* Line between Instructions and Nutrition */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+section.nutrition {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
 footer {
     text-align: center;
     margin-top: 30px;
